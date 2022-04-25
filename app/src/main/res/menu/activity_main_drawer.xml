@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="ADD">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_baseline_meeting_room_24"
+                    android:title="Add Salle" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_baseline_laptop_24"
+                    android:title="Add machine" />
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="Lists and Statistics">
+            <menu>
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_baseline_insert_chart_24"
+                    android:title="Statistics" />
+                <item
+                    android:id="@+id/nav_salle"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="List Salles" />
+                <item
+                    android:id="@+id/nav_machine"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="List Machines" />
+                <item
+                    android:id="@+id/nav_salle_machine"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="Machine par salle" />
+
+            </menu>
+
+
+        </item>
+        <item android:title="ADD">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_home1"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_gallery1"
+                    android:icon="@drawable/ic_baseline_send_24"
+                    android:title="Send" />
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+</menu>
